@@ -2,8 +2,11 @@
 
 function OnMouseDown () 
 {
-	if (gameObject.transform.position.y > -1 && gameObject.tranform.position.y < 4)
+	if (gameObject.transform.position.y > -1 && gameObject.transform.position.y < 4)
 	{
-		Destroy(GameObject);
+		GameData.numGrabbed++;
+		GameData.DisplayScore();
+		Destroy(gameObject);
+
 	}
 }

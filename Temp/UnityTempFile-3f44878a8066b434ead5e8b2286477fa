@@ -90,4 +90,6 @@
 -r:'/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll'
 -r:'/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll'
 -i:UnityEditor
+'Assets/Scripts/DestroyOnClick.js'
+'Assets/Scripts/InstantiateGObj.js'
 'Assets/Scripts/InstantiateGObj.js.js'
