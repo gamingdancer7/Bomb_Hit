@@ -5,7 +5,7 @@
 
 	static function DisplayScore () {
 
-	Debug.Log("Grabbed;" + numGrabbed + "Missed: " + numMissed);
+	Debug.Log("Grabbed; " + numGrabbed + "Missed: " + numMissed);
 
 	}
 
